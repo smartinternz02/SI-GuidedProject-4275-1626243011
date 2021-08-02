@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#48c6ef ;
+    
+}
+/* utility classess */
+h1{
+    font-size: 3.5rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align:center;
+    color:black;
+}
+h4{
+    font-size:2rem;
+    font-family:'Libre Baskerville', serif;
+    text-align:center;
+
+}
+p{
+    font-size: 2rem;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    text-align:center;
+    color:black;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+/* body */
+   #image{
+       width: 500px;
+       height:400px;
+       position: absolute;
+       top:200px;
+       right:30px;
+       
+      }
+      /* head */
+      #head{
+        position: absolute;
+        top:100px;
+        left:25px;
+       
+      }
